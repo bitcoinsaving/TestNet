@@ -127,8 +127,14 @@ Open your wallet and execute mine.bat to start mining.
 Testnet Explorer & API
 ----------------------
 
-Testnet Explorer located at http://testnet.bitcoinsaving.cc
-Testnet API Documentation located at http://testnet.bitcoinsaving.cc/info
+Testnet Explorer: http://testnet.bitcoinsaving.cc
+
+Testnet API Documentation: http://testnet.bitcoinsaving.cc/info
 
 
+Mainnet Explorer & API
+----------------------
+Mainnet Explorer: http://explorer.bitcoinsaving.cc/
+
+Mainnet API Documentation: http://explorer.bitcoinsaving.cc/info
 
