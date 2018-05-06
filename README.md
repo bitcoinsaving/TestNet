@@ -83,13 +83,21 @@ Install linux daemon from source
 --------------------------------
 
 sudo apt-get install libboost-all-dev g++-5 libssl-dev libdb++-dev -y 
+
 sudo apt-get install build-essential libssl-dev libdb-dev libdb++-dev libboost-all-dev git libssl1.0.0-dbg -y
+
 sudo apt-get install libdb-dev libdb++-dev libboost-all-dev libminiupnpc-dev libminiupnpc-dev libevent-dev libcrypto++-dev libgmp3-dev -y
+
 mkdir testnet
+
 cd testnet
+
 wget https://github.com/bitcoinsaving/TestNet/blob/master/Wallet/testnet-sourcecode.tar.gz
+
 tar -xzvf testnet-sourcecode.tar.gz
+
 cd src
+
 make -f makefile.unix RELEASE=1
 
 
