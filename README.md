@@ -12,17 +12,17 @@ Testnet Wallet can be download here: https://github.com/bitcoinsaving/TestNet/tr
 Install for Linux Daemon
 ------------------------
 
-*Note: before first run please install dependencies listed below.
+*Note: before the first run please install dependencies listed below.
 
-wget https://github.com/bitcoinsaving/TestNet/blob/master/Wallet/testnet-daemon-linux.tar.gz  //Ubuntu 14.04
+wget https://github.com/bitcoinsaving/TestNet/blob/master/Wallet/testnet-daemon-linux-ubentu14.04.tar.gz  //Ubuntu 14.04
 
 or
 
-wget https://github.com/bitcoinsaving/TestNet/blob/master/Wallet/testnet-daemon-ubuntu1604.tar.gz //Ubuntu 16.04
+wget https://github.com/bitcoinsaving/TestNet/blob/master/Wallet/testnet-daemon-linux-ubentu16.04.tar.gz //Ubuntu 16.04
 
-tar -xzvf testnet-daemon-linux.tar.gz     //or testnet-daemon-ubuntu1604.tar.gz
+tar -xzvf testnet-daemon-linux-ubentu14.04.tar.gz     //or testnet-daemon-linux-ubentu16.04.tar.gz
 
-chmod +x bitcoinsavingd
+chmod +x bitcoinsavingd or testnet
 
 run it with: ./bitcoinsavingd    or   ./testnet
 
@@ -41,14 +41,14 @@ Run it again.
 Install for Windows 7/8/10
 --------------------------
 
-Download & unzip & run: https://github.com/bitcoinsaving/TestNet/blob/master/Wallet/bitcoinsaving-qt-windows.zip 
+Download & unzip & run: https://github.com/bitcoinsaving/TestNet/blob/master/Wallet/testnet-windows.zip 
 
 
 Install for Linux Xwindows
 --------------------------
 
 wget 
-https://github.com/bitcoinsaving/TestNet/blob/master/Wallet/bitcoinsaving-qt-linux.tar.gz
+https://github.com/bitcoinsaving/TestNet/blob/master/Wallet/testnet-qt-linux.tar.gz
 
 tar -xzvf bitcoinsaving-qt-linux.tar.gz
 
@@ -87,8 +87,8 @@ sudo apt-get install build-essential libssl-dev libdb-dev libdb++-dev libboost-a
 sudo apt-get install libdb-dev libdb++-dev libboost-all-dev libminiupnpc-dev libminiupnpc-dev libevent-dev libcrypto++-dev libgmp3-dev -y
 mkdir testnet
 cd testnet
-wget https://github.com/bitcoinsaving/TestNet/blob/master/Wallet/bitcoinsaving-source.tar.gz
-tar -xzvf bitcoinsaving-source.tar.gz
+wget https://github.com/bitcoinsaving/TestNet/blob/master/Wallet/testnet-sourcecode.tar.gz
+tar -xzvf testnet-sourcecode.tar.gz
 cd src
 make -f makefile.unix RELEASE=1
 
