@@ -111,15 +111,25 @@ Close your wallet and create the file bitcoinsaving.conf in the folder "%APPDATA
 Copy the following text into BitcoinSaving.conf and save the file:
 
 rpcuser=<auto-generate user>
+
 rpcpassword=<auto-generate password>
+
 rpcallowip=127.0.0.1
+
 rpcport=35280
+
 listen=1
+
 server=1
+
 addnode=testnet1.bitcoinsaving.cc
+
 addnode=testnet2.bitcoinsaving.cc
+
 addnode=testnet3.bitcoinsaving.cc
+
 addnode=testnet4.bitcoinsaving.cc
+
 
 Download cpuminer from https://bitcointalk.org/index.php?topic=55038.0 and extract the zip file.
 
