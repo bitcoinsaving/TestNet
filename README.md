@@ -131,6 +131,7 @@ addnode=testnet3.bitcoinsaving.cc
 addnode=testnet4.bitcoinsaving.cc
 
 
+
 Download cpuminer from https://bitcointalk.org/index.php?topic=55038.0 and extract the zip file.
 
 Create a .bat file named mine.bat and copy the following text into mine.bat.
